@@ -2,7 +2,7 @@
 
 Developed a project to help a travelers to plan and manage their trips.
 
-We have created a mobile app which basically has three features
+We have created a mobile app which basically has following features -
 
     1) Make customized travel plan according to user preference.
 
