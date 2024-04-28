@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">JourneyCraft</string>
+    <string name="we_will_send_you_an_otp_on_this_mobile_number">We will send you an OTP on this mobile number</string>
+    <string name="enter_mobile_number">Enter mobile number</string>
+    <string name="_91">+91-</string>
+    <string name="get_otp">Get OTP</string>
+    <string name="enter_the_otp">Enter the OTP</string>
+    <string name="didn_t_receive_the_otp">Didn\'t receive the OTP</string>
+    <string name="verify">Verify</string>
+    <string name="let_s_kick_start_your_n_travelling_journey">Let\'s Kick Start Your\n Travelling Journey</string>
+    <string name="explore_new_places_nand_get_new_experiences">Explore new places \nand get new experiences</string>
+    <string name="api_key">AIzaSyAMVwVSIgde3V7yj2qX5OJ5JozD1-uH74w</string>
+</resources>

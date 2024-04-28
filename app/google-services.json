@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "435369466656",
+    "project_id": "journeycraft-login-details",
+    "storage_bucket": "journeycraft-login-details.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:435369466656:android:1de83e9d5c27328f3a5545",
+        "android_client_info": {
+          "package_name": "com.gmail_bssushant2003.journeycraft"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2HOqNRSUkRVlkwna1JhDD7ZAG7iDtuDo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

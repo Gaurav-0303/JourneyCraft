@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorPrimary">#536DFE</color>
+    <color name="colorPrimaryDark">#536DFE</color>
+    <color name="colorAccent">#F44336</color>
+    <color name="colorTextPrimary">#212121</color>
+    <color name="colorTextSecondary">#757575</color>
+    <color name="colorDivider">#BDBDBD</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="orange">#FE6900</color>
+    <color name="blue">#3AA3A5</color>
+    <color name="water">#27BEA0</color>
+    <color name="veg_light">#388E3C</color>
+    <color name="veg_dark">#2CD834</color>
+    <color name="nonveg_light">#F44336</color>
+    <color name="nonveg_dark">#FF1100</color>
+    <color name="lifted_card_background">#FFFFCC00</color>
+    <color name="default_card_background">#FFFFFFFF</color>
+</resources>
