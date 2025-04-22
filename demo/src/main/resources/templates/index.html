@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Home Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px 10px;
+            text-align: center;
+        }
+
+        .buttons {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px 20px;
+            margin: 10px;
+            border: none;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .button:hover {
+            background-color: #45a049;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <h1>Welcome to My Home Page</h1>
+</header>
+
+<div class="buttons">
+    <button class="button" onclick="window.location.href='http://127.0.0.1:5000';">Plan a Trip</button>
+    <button class="button" onclick="logout()">Logout</button>
+</div>
+
+<main>
+    <h2>About Me</h2>
+    <p>This is a paragraph about me. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque nisl ut sapien interdum, nec ullamcorper velit dapibus. Sed ac vestibulum libero, nec tempor felis.</p>
+    <h2>Services</h2>
+    <p>These are the services I offer. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque nisl ut sapien interdum, nec ullamcorper velit dapibus. Sed ac vestibulum libero, nec tempor felis.</p>
+</main>
+
+<footer>
+    <p>Footer Content &copy; 2024</p>
+</footer>
+
+<script>
+    function logout() {
+        // Clear the session or authentication data
+        localStorage.clear();   // Clears data in localStorage
+        sessionStorage.clear(); // Clears data in sessionStorage
+
+        // Redirect to the login page after clearing session data
+        window.location.href = '/req/login'; // Adjust the URL to your login page
+    }
+</script>
+</body>
+</html>

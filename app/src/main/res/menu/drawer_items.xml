@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/group1">
+
+        <item
+            android:id="@+id/navlogout"
+            android:title="Logout"
+            android:icon="@drawable/logout"/>
+
+        <item
+            android:icon="@drawable/contact"
+            android:id="@+id/navcontact"
+            android:title="Contact Us"/>
+
+    </group>
+
+    <group android:id="@+id/group2">
+        <item
+            android:icon="@drawable/baseline_edit_24"
+            android:id="@+id/navEditPreference"
+            android:title="Edit Preference" />
+    </group>
+
+    <group android:id="@+id/group3">
+        <item
+            android:icon="@drawable/travel_bag"
+            android:id="@+id/navActivePlan"
+            android:title="Active Plan" />
+
+        <item
+            android:icon="@drawable/travel_history"
+            android:id="@+id/navHistory"
+            android:title="History" />
+
+    </group>
+
+
+
+
+</menu>

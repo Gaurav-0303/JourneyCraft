@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/guides"
+        android:color="#FFFFFFFF"
+        android:icon="@drawable/guide"
+        android:title="Guides" />
+
+    <item
+        android:id="@+id/restaurants"
+        android:color="#FFFFFFFF"
+        android:icon="@drawable/restaurant"
+        android:title="Restaurants"/>
+
+</menu>

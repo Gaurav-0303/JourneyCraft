@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "699233003751",
+    "project_id": "journey-craft-abb96",
+    "storage_bucket": "journey-craft-abb96.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:699233003751:android:4f8f9dfb4c1958c2869a42",
+        "android_client_info": {
+          "package_name": "com.gmail_bssushant2003.journeycraft"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-RHhpVDGooFAPt4gNpofMbcu1mKSvjH8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.JourneyCraft" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Customize your dark theme here. -->
+            <item name = "colorPrimary">@color/colorPrimary</item>
+            <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+            <item name="colorAccent">@color/colorAccent</item>
+            <item name="android:textColorPrimary">@color/white</item>
+            <item name="android:textColorSecondary">@color/white</item>
+
+<!--         <item name="colorPrimary">@color/my_dark_primary</item> -->
+    </style>
+
+    <style name="Theme.JourneyCraft" parent="Base.Theme.JourneyCraft" />
+
+    <style name="MyToolbarTitleTextAppearance" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:fontFamily">@font/montserrat_medium</item>
+        <item name="android:textColor">@color/blue</item>
+        <!-- You can add more properties here as needed -->
+    </style>
+
+</resources>
