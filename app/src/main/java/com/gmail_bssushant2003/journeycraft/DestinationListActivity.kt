@@ -59,7 +59,13 @@ class DestinationListActivity : AppCompatActivity() {
         //stop the service
         binding.notification.setOnClickListener {
             val intent = Intent(this, LocationService::class.java)
-            stopService(intent)
+            if (LocationService.isRunning) {
+                stopService(intent)
+                Toast.makeText(this, "Location tracking stopped", Toast.LENGTH_SHORT).show()
+            } else {
+                startService(intent)
+                Toast.makeText(this, "Location tracking started", Toast.LENGTH_SHORT).show()
+            }
         }
 
         //start the service

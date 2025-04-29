@@ -23,7 +23,7 @@ class GuideDetailsDialogFragment(private val guide: Guide) : DialogFragment() {
 
 //            binding.root.setBackgroundResource(android.R.color.transparent)
 
-            binding.name.text = guide.name ?: "XYZ"
+            binding.name.text = guide.guidename ?: "XYZ"
             binding.experience.text = guide.experience.toString()
     //            binding.guideLanguages.text = "Languages: ${it.language ?: "Not specified"}"
             binding.bio.text = guide.bio

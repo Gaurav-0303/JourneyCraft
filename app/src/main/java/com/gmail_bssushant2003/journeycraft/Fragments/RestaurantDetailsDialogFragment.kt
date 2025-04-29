@@ -48,11 +48,16 @@ class RestaurantDetailsDialogFragment(private val restaurant: Restaurant) : Dial
                 binding.vegIndicator.setImageResource(R.drawable.ic_nonveg)
             }
 
-            binding.callIcon.setOnClickListener {
-                val callIntent = Intent(Intent.ACTION_DIAL).apply {
-                    data = "tel:${restaurant.phoneNo}".toUri()
+            binding.directionIcon.setOnClickListener {
+//                val callIntent = Intent(Intent.ACTION_DIAL).apply {
+//                    data = "tel:${restaurant.phoneNo}".toUri()
+//                }
+//                startActivity(callIntent)
+
+                val mapIntent = Intent(Intent.ACTION_VIEW).apply {
+                    data = restaurant.locationLink?.toUri()
                 }
-                startActivity(callIntent)
+                startActivity(mapIntent)
             }
 
             // Build the AlertDialog

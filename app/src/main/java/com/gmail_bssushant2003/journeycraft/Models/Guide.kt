@@ -5,7 +5,7 @@ import java.io.Serializable
 data class Guide(
     val id: Long? = null,
     val user: User? = null,
-    val name: String? = null,
+    val guidename: String? = null,
     val experience: Int = 0,
     val language: String? = null,
     val bio: String? = null,

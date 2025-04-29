@@ -25,7 +25,7 @@ class DetailedGuideActivity : AppCompatActivity() {
 
         // Populate UI with guide details
         guide?.let {
-            binding.name.text = it.name ?: "XYZ"
+            binding.name.text = it.guidename ?: "XYZ"
             binding.experience.text = it.experience.toString()
 //            binding.guideLanguages.text = "Languages: ${it.language ?: "Not specified"}"
             binding.bio.text = it.bio

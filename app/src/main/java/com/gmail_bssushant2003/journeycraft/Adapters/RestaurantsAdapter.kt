@@ -43,7 +43,7 @@ class RestaurantsAdapter(var context : Context, var restaurantsList : ArrayList<
 
 //        }
 
-        holder.binding.expandCard.setOnClickListener {
+        holder.binding.restCard.setOnClickListener {
 //            val intent = Intent(Intent.ACTION_DIAL).apply {
 //                data = "tel:${restaurantsList[position].phoneNo}".toUri()
 //            }

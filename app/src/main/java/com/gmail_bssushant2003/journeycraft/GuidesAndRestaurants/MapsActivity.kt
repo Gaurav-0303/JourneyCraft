@@ -254,7 +254,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
                         guideList.addAll(fetchedData)
 
                         for (guide in guideList) {
-                            Log.d("Gaurav", "Guide Name: ${guide.name}")
+                            Log.d("Gaurav", "Guide Name: ${guide.guidename}")
                             addPinToGuideLocation(guide)
                         }
                     } else {
@@ -292,7 +292,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
 
                         if (distanceResult[0] <= 10_000) { // 10km radius
                             guideList.add(it)
-                            Log.d("Gaurav", "Guide from Firebase: ${it.name}")
+                            Log.d("Gaurav", "Guide from Firebase: ${it.guidename}")
                             addPinToGuideLocation(it)
                         }
                     }

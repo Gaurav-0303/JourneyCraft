@@ -25,7 +25,7 @@ class GuidesAdapter(var context : Context, var guidesList : ArrayList<Guide>,  p
     }
 
     override fun onBindViewHolder(holder: MyViewHolder, position: Int) {
-        holder.binding.guideName.text = guidesList[position].name
+        holder.binding.guideName.text = guidesList[position].guidename
         holder.binding.guideMobileNumber.text = guidesList[position].phoneNo
 
         holder.binding.guideCard.setOnClickListener {

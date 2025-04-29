@@ -29,6 +29,11 @@ class LocationService : Service() {
     private lateinit var locationCallback: LocationCallback
     private val apiService: ApiService
 
+    companion object {
+        var isRunning = false
+    }
+
+
     private var lastKnownLocation: Location? = null // 🔹 Store last known location
 
     init {
@@ -59,6 +64,7 @@ class LocationService : Service() {
     @RequiresApi(Build.VERSION_CODES.S)
     @RequiresPermission(allOf = [Manifest.permission.ACCESS_FINE_LOCATION, Manifest.permission.ACCESS_COARSE_LOCATION])
     override fun onStartCommand(intent: Intent?, flags: Int, startId: Int): Int {
+        isRunning = true
         startForeground(1, createNotification("Tracking location..."))
         startLocationTracking()
         return START_STICKY
@@ -213,6 +219,7 @@ class LocationService : Service() {
     override fun onBind(intent: Intent?): IBinder? = null
 
     override fun onDestroy() {
+        isRunning = false
         super.onDestroy()
         fusedLocationClient.removeLocationUpdates(locationCallback)
     }
